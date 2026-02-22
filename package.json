@@ -1,0 +1,17 @@
+{
+  "name": "minutes-creation",
+  "version": "1.0.0",
+  "description": "POSTでGoogleドキュメントを自動作成するGAS（TypeScript）",
+  "scripts": {
+    "push": "clasp push",
+    "push:watch": "clasp push --watch",
+    "deploy": "clasp deploy",
+    "open": "clasp open",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.83",
+    "@google/clasp": "^3.0.4",
+    "typescript": "~5.6.0"
+  }
+}

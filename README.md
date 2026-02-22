@@ -174,4 +174,3 @@ minutes-creation/
 
 - **TypeScript のみ開発する場合**: `src/Main.ts` を編集し、`clasp push` でアップロード。`Main.gs` は不要（clasp が .ts をコンパイルして GAS に送るため）。
 - **手動で GAS に貼る場合**: `Main.ts` をローカルでコンパイルするか、従来の `Main.gs`（JavaScript）を別途用意してコピーしてください。
-# gas-minutes-creation
